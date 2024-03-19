@@ -8,7 +8,7 @@ function Cardsection() {
   return (
     <div className=" m-8 md:m-12 font-oswald flex-col">
       <div className="">
-        <div className=" my-8 flex flex-col  align-middle justify-center items-center h-full ">
+        <div className=" my-8 flex flex-col h-full ">
           <p className="text-2xl ">Discover the stash of resources</p>
           <p>
             Explore our academic directories, note-sharing and skill
@@ -16,8 +16,11 @@ function Cardsection() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8 md:gap-32 md:flex-row">
-        <a>
+      <div 
+      className="justify-center flex" 
+      >
+      <div className="  flex flex-col gap-8 md:gap-32 md:flex-row ">
+        <a className=" flex flex-col align-middle items-center justify-center" >
           <CCard
             logo={<TbBooks className="text-2xl" />}
             tittle={"Academic resources"}
@@ -30,7 +33,7 @@ function Cardsection() {
           </button>
         </a>
 
-        <a>
+        <a className=" flex flex-col align-middle items-center justify-center">
           <CCard
             logo={<IoLogoFirebase  className="text-2xl" />}
             tittle={"Skill Developement"}
@@ -43,6 +46,7 @@ function Cardsection() {
           </button>
         </a>
 
+      </div>
       </div>
     </div>
   );
