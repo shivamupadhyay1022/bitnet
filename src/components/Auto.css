@@ -1,0 +1,13 @@
+
+  .slide {
+    width: 150px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    transition:0.1s;
+    cursor:pointer;
+  }
+  .slide:hover{
+    transform:scale(2.0)
+  }
+  

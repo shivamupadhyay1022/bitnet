@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-blurred-edge {
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 16px 16px 16px 16px white inset;
+}
